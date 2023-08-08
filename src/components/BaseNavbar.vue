@@ -2,7 +2,7 @@
   <div
     class="h-24 shadow-md bg-black flex items-center justify-center relative "
   >
-    <router-link to="/cart">
+    <!-- <router-link to="/cart">
       <div
         class="absolute my-auto right-6 h-12 w-12 flex items-center justify-center cursor-pointer"
       >
@@ -22,7 +22,7 @@
         </svg>
       </div>
 
-    </router-link>
+    </router-link> -->
 
     <span class="text-blue-600 font-bold text-2xl text-center">Fake Store</span>
   </div>
