@@ -6,7 +6,7 @@
       <input
         :id="'category-' + index"
         :value="item"
-        type="checkbox"
+        type="radio"
         v-model="checkedFilters"
         @change="$emit('change-filter', checkedFilters)"
       />
