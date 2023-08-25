@@ -39,7 +39,7 @@ const getProducts = async () => {
 
 const changeFilter = async (el) => {
     try {
-    const response = await fetch(`https://fakestoreapi.com/products/category/${el[0]}`)
+    const response = await fetch(`https://fakestoreapi.com/products/category/${el}`)
     const data = await response.json()
     products.value = data
   } catch (error) {
